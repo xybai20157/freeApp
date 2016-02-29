@@ -1,0 +1,164 @@
+header{
+    position: relative;
+    padding-top: 10px;
+    height: 38px;
+    background: #00cc4e;
+    font-size: 16px;
+    color: #fff;
+}
+header .user-ph,header .search{
+    position: absolute;
+    top: 12px;
+    width:25px ;
+    height: 27px;
+}
+header .user-ph{
+    left: 15px;
+    background: url("../icon/yh.gif") no-repeat;
+    background-size: contain;
+}
+header .address{
+    width: 100px;
+    line-height: 27px;
+    margin: auto;
+}
+header .address span{
+    height: 27px;
+    display: block;
+    float: left;
+}
+header .address span:nth-child(2){
+    width: 25px;
+    background: url("../icon/address.gif") no-repeat center ;
+    background-size: contain;
+}
+header .search{
+    right: 15px;
+    background: url("../icon/search.gif") no-repeat;
+    background-size: contain;
+}
+/*以上为头部样式*/
+
+.banner{
+    width: 100%;
+    height: 86px;
+    overflow: hidden;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    height: 28px;
+    line-height: 26px;
+    background: #fff;
+    font-size: 14px;
+}
+nav .sort{
+    position: relative;
+    float: left;
+    margin: 6px 0;
+    width: 30%;
+    padding-right: 3%;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    border-right: 1px solid #d9d9da;
+}
+nav .sort>span{
+    position: absolute;
+    right:15%;
+    top: 6px;
+    display: block;
+    width: 11px;
+    height: 7px;
+    background: url("../icon/arrow-down.gif") no-repeat;
+    background-size: contain;
+}
+.cp-list{
+    height: 77px;
+    padding: 5px 8px;
+    margin-top: 10px;
+    border-top:1px solid #c3c3c3;
+    border-bottom:1px solid #c3c3c3;
+    background: #fff;
+}
+.cp-list dt{
+    float: left;
+    width: 77px;
+}
+.cp-list dd{
+    float: left;
+    margin-left: 10px;
+}
+.cp-list dd p:nth-child(1){
+     font-size: 14px;
+     color: #222;
+ }
+.cp-list dd p:nth-child(2){
+    color: #00cc4e;
+    letter-spacing: 2px;
+}
+.cp-list dd p:nth-child(4) span{
+    font-size: 14px;
+    margin-left: 20px;
+}
+.cp-list .detil{
+    float: right;
+}
+.cp-list .title{
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.cp-list .date{
+    font-size: 12px;
+}
+.cp-list .but{
+    display: block;
+    margin-top: 5px;
+    width: 70px;
+    height: 28px;
+    line-height: 28px;
+    background: #f8b616;
+    border-radius: 3px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+.bot-bar{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 52px;
+    border-top: 1px solid #c3c3c3;
+    background: #fff;
+    font-size: 14px;
+}
+.bot-bar ul{
+    height: 100%;
+}
+.bot-bar li{
+    padding-top: 20px;
+    width: 33.3%;
+    float: left;
+    text-align: center;
+}
+.bot-bar li a{
+     width: 100%;
+    padding-top: 10px;
+     float: left;
+ }
+.bot-bar .free-lunch{
+    background: url("../icon/free-icon.gif") no-repeat center 8px;
+    background-size: 28px;
+}
+.bot-bar .order{
+    background: url("../icon/order.gif") no-repeat center 8px;
+    background-size:22px;
+}
+.bot-bar .my-free{
+    background: url("../icon/my-free.gif") no-repeat center 8px;
+    background-size: 25px;
+}

@@ -1,0 +1,35 @@
+body,header,section,nav,div,ul,li,dl,dt,dd,p,span,img {
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+    color: #717071;
+    background: #f5f5f9;
+    font-size: 12px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+img{
+    border: none;
+}
+address, cite, dfn, em, var {
+    font-style: normal;
+}
+
+code, kbd, pre, samp {
+    font-family: couriernew, courier, monospace;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: underline;
+}
